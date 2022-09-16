@@ -41,15 +41,12 @@ nav {
     cursor: pointer;
     display: none;
   }
-
-
   /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('imgs/IMG_E1073\ \(1\).JPG');
+    background: url("imgs/0C90CCBA-6FA7-4F9D-BB42-0EC2212526CE.jpeg")
     background-size:cover;
     position:relative;
-    background-position: 50% 25%;
 }
 /* text css above hero image*/
 .hero_title {
