@@ -6,11 +6,9 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #ecedf3;
   --secondary-color: #ff723500;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --primary-shadow: #053f1f;
+  --secondary-shadow: #dae4cbea;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -123,6 +121,7 @@ nav {
 
 
 .bio {
+  color:#ecedf3;
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
@@ -130,33 +129,27 @@ nav {
 }
 
 .bio h1 {
+  color:#ecedf3;
   margin-bottom: var(--bottom-margin);
 }
 
 .bio p {
+  color: #ecedf3;
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
+
 .more-about {
-  color:aliceblue;
-  background-color:black;
+  background-color: var(--bg-color);
   padding: 1rem 6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow)
 }
 
 .more-about h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
-  color:aliceblue;
-  background-color: black;
 }
 
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
-  color: aliceblue;
-  background-color: black;
 }
