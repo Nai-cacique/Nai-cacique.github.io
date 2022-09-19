@@ -100,20 +100,18 @@ nav {
 }
 /* text css above hero image*/
 .hero_title {
-  height: 85px;;
-  font-size: 4.0rem;
-  text-align: left;
-  align-items:center;
+ font-size: 4.5rem;
+  
 }
 .hero_desc {
   font-size: 2rem;
-  height: 30vh;
+
 }
 .hero-text {
   text-align:center;
   position:absolute;
-  top: 25%;
-  left: 25%;
+  top:40%;
+  left:30%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -142,7 +140,7 @@ nav {
 }
 
 .more-about {
-  background-color: var(--bg-color);
+  width:100%;
   padding: 1rem 6rem;
   font-size: 28px;
 }
@@ -153,8 +151,9 @@ nav {
 }
 
 .more-about p {
+  margin-bottom:2rem;
   line-height: var(--line-height);
-  padding: 0.4rem;
+  padding: 0.2rem;
 }
 
 .skills {
